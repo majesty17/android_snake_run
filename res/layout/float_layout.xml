@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#5505B7FF"
+    android:gravity="center_vertical"
+    android:padding="1dp"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="已停止~" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="40dp"
+        android:layout_height="24dp"
+        android:background="#99000000"
+        android:text="启动"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:textColor="#FF0000"
+        android:textSize="11dp" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="40dp"
+        android:layout_height="24dp"
+        android:background="#99000000"
+        android:text="停止"
+        android:textColor="#FF0000"
+        android:textSize="11dp" />
+
+</LinearLayout>
